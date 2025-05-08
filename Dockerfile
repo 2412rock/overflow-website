@@ -5,7 +5,7 @@ FROM nginx:alpine
 #COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copy HTML files to Nginx web root
-COPY EULA.html privacy-policy.html /usr/share/nginx/html/
+COPY EULA.html privacy-policy.html uptime-monitor-privacy.html /usr/share/nginx/html/
 
 # Expose port 80 (default HTTP port)
 EXPOSE 80
